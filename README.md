@@ -26,7 +26,7 @@ There does not seem to be `robotframework-jsonlibrary` for `python3`.
 Typical run command would look like:
 
 ```
-docker run --rm -it -v ${PWD}:${PWD} -w ${WORKDIR} "ROBOT_OPTIONS"
+docker run --rm -it -v ${PWD}:${PWD} -w ${PWD} 3mdeb/rf-docker "ROBOT_OPTIONS"
 ```
 
 # Release image to DockerHub
