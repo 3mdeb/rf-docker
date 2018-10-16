@@ -3,3 +3,6 @@ robotframework-requests
 robotframework-archivelibrary
 robotframework-jsonlibrary
 robotframework-sshlibrary
+pycryptodome
+warrant
+boto3
