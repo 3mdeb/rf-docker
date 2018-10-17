@@ -1,8 +1,10 @@
+git+git://github.com/3mdeb/robotframework@upstream_next#egg=robotframework
+robotframework-sshlibrary==2.1.3
+robotframework-requests==0.4.7
+pyte==0.8.0
 requests
-robotframework-requests
 robotframework-archivelibrary
 robotframework-jsonlibrary
-robotframework-sshlibrary
 pycryptodome
 warrant
 boto3
