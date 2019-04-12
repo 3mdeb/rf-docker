@@ -1,4 +1,4 @@
-git+git://github.com/3mdeb/robotframework@upstream_next#egg=robotframework
+git+git://github.com/3mdeb/robotframework@skip_test2#egg=robotframework
 robotframework-sshlibrary==2.1.3
 robotframework-requests==0.4.7
 pyte==0.8.0
@@ -8,3 +8,8 @@ robotframework-jsonlibrary
 pycryptodome
 warrant
 boto3
+dbbot
+gspread==3.1.0
+oauth2client
+PyOpenSSL
+wakeonlan
