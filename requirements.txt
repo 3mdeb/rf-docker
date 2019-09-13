@@ -14,3 +14,4 @@ oauth2client
 PyOpenSSL
 wakeonlan
 credentials
+cryptography==2.5
