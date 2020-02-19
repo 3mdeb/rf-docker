@@ -8,6 +8,8 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends \
     git \
     curl \
+    wget \
+    openssh-client \
     && rm -rf /var/lib/apt/lists/*
 
 # install python modules
