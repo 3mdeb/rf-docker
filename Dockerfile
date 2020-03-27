@@ -1,4 +1,4 @@
-FROM python:2.7.15-slim-stretch
+FROM python:3.7-slim-stretch
 
 MAINTAINER "Maciej Pijanowski" <maciej.pijanowski@3mdeb.com>
 
