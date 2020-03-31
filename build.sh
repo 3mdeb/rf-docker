@@ -3,4 +3,4 @@
 USERNAME="3mdeb"
 IMAGE="rf-docker"
 
-docker build -t $USERNAME/$IMAGE:latest .
+docker build -t $USERNAME/$IMAGE:python3 .
