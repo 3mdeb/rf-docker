@@ -15,11 +15,22 @@ expanding it further.
 
 There does not seem to be `robotframework-jsonlibrary` for `python3`.
 
+# Pull
+
+```bash
+docker pull 3mdeb/yocto-docker
+```
+
 # Build
 
-```
+```bash
 ./build.sh
 ```
+
+# Relase
+
+Refer to the
+[docker-release-manager](https://github.com/3mdeb/docker-release-manager/blob/master/README.md)
 
 # Run
 
@@ -28,11 +39,3 @@ Typical run command would look like:
 ```
 docker run --rm -it -v ${PWD}:${PWD} -w ${PWD} 3mdeb/rf-docker "ROBOT_OPTIONS"
 ```
-
-# Release image to DockerHub
-
-```
-./release.sh VERSION_BUMP
-```
-
-> VERSION_BUMP can be: major, minor, patch
