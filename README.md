@@ -11,10 +11,6 @@ When much more dependencies will be needed for the specific project, it is
 worth considering to use the `3mdeb/rf-docker` as a base image, instead of
 expanding it further.
 
-# Why python2?
-
-There does not seem to be `robotframework-jsonlibrary` for `python3`.
-
 # Pull
 
 ```bash
