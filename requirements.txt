@@ -8,7 +8,7 @@ robotframework-jsonlibrary
 pycryptodome
 warrant
 boto3
-dbbot
+dbbot-sqlalchemy==0.2
 gspread==3.1.0
 oauth2client
 PyOpenSSL
